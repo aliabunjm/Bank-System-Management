@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build BankSystem",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++14",
+                "-Wall",
+                "-o",
+                "${workspaceFolder}/BankSystem.exe",
+                "${workspaceFolder}/main.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$gcc",
+            "detail": "Compile BankSystem with g++"
+        }
+    ]
+}

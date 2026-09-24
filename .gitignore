@@ -1,0 +1,14 @@
+# Build output
+*.exe
+*.o
+*.out
+*.app
+
+# Temp / OS
+*~
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Test leftovers
+datatest_tmp*

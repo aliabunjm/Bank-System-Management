@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run BankSystem",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/BankSystem.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run with gdb (MinGW)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/BankSystem.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
+            "preLaunchTask": "build BankSystem"
+        }
+    ]
+}
